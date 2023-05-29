@@ -1,0 +1,56 @@
+{
+  "name": "whatsapp-mern-clone",
+  "version": "0.1.0",
+  "private": true,
+  "liveServer.settings.host": "localhost",
+  "dependencies": {
+    "@babel/runtime": "^7.3.4",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "axios": "^1.3.4",
+    "babel": "^6.23.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mongodb": "^5.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-flip-move": "^3.0.5",
+    "react-fontawesome": "^1.7.1",
+    "react-moment": "^1.1.3",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^5.3.9",
+    "theme-provider": "^1.0.8"
+  },
+  "scripts": {
+    "build:css": "postcss src/assets/css/tailwind.css -o src/assets/css/index.css",
+    "watch:css": "postcss src/assets/css/tailwind.css -o src/assets/css/index.css -w",
+    "server": "server/main.ts",
+    "start": "react-scripts start",
+    "build": "yarn run build:css & react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/meteor": "^2.9.2",
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.31",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^3.9.10"
+  }
+}
